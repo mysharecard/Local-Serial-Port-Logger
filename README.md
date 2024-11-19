@@ -111,7 +111,8 @@ git clone https://github.com/mysharecard/Local-Serial-Port-Logger.git
 ---
 
 ## Лицензия
-Этот проект распространяется под лицензией MIT. Вы можете свободно использовать, изменять и распространять его в соответствии с условиями лицензии.
+A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
+Вы можете свободно использовать, изменять и распространять его в соответствии с условиями лицензии.
 
 ---
 
