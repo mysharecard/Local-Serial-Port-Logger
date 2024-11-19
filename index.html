@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Serial Port Logger</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Local Serial Port Logger</h1>
+  <div class="controls">
+    <button id="connect">Подключиться</button>
+    <button id="stop" disabled>Остановить</button>
+    <label for="lineCount">Показывать последние:</label>
+    <select id="lineCount">
+      <option value="100">100</option>
+      <option value="200">200</option>
+      <option value="500">500</option>
+      <option value="1000">1000</option>
+    </select>
+    <label for="logInterval">Интервал записи (минуты):</label>
+    <select id="logInterval">
+      <option value="10">10</option>
+      <option value="20" selected>20</option>
+      <option value="30">30</option>
+      <option value="60">60</option>
+      <option value="120">120</option>
+      <option value="0">Отключить</option>
+    </select>
+  </div>
+  <pre id="output"></pre>
+  <footer>Data Logger — это веб-приложение для записи данных, поступающих из последовательного порта (COM/Serial). Логгер прост в использовании и поддерживает гибкую настройку интервала сохранения данных. Все данные записываются в CSV-файл с временными метками в формате GMT+3, что делает его удобным для анализа.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
